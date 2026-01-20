@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced CSS Animations Lab</title>
+  <link rel="stylesheet" href="assets/css/custom.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="fade-in">
+    <h1>CSS Animations Showcase</h1>
+    <p>Smooth, accessible, and beautiful</p>
+  </header>
+
+  <nav class="fade-in">
+    <a href="#" class="nav-link" onclick="alert('Home clicked!'); return false;">Home</a>
+    <a href="#" class="nav-link" onclick="alert('Features clicked!'); return false;">Features</a>
+    <a href="#" class="nav-link" onclick="alert('Contact clicked!'); return false;">Contact</a>
+  </nav>
+
+  <main>
+    <section class="card fade-in">
+      <h2>Welcome to the Future of CSS</h2>
+      <p>This page demonstrates advanced CSS animations, loaders, and responsive design — all while respecting user preferences like reduced motion.</p>
+      
+      <div class="button-group">
+        <button class="hover-btn" onclick="alert('Get Started!')">Get Started</button>
+        <button class="hover-btn secondary" onclick="alert('Learn More!')">Learn More</button>
+      </div>
+    </section>
+
+    <section class="loader-section fade-in">
+      <p>Loading experience preview:</p>
+      <div class="loader"></div>
+    </section>
+  </main>
+
+  <footer class="fade-in">
+    <p>&copy; 2026 • Advanced CSS Lab • All animations respect <code>prefers-reduced-motion</code></p>
+  </footer>
+
+  <div class="shapes">
+  <span class="shape circle"></span>
+  <span class="shape triangle"></span>
+  <span class="shape square"></span>
+</div>
+
+</body>
+</html>
